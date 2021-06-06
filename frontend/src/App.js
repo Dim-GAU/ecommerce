@@ -11,7 +11,7 @@ function App() {
       <div className="grid-container">
         <header className="row">
           <div>
-            <a className="brand" href="/">amazona</a>
+            <a className="brand" href="/">ecommerce</a>
           </div>
           <div>
             <a href="/cart">Cart</a>
@@ -25,7 +25,7 @@ function App() {
 
         </main>
         <footer className="row center">
-          All right reserved
+
         </footer>
 
       </div>
