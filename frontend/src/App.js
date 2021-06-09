@@ -19,8 +19,8 @@ function App() {
           </div>
         </header>
         <main>
-          <Route path="/product/:id" component={ProductScreen}></Route>
-          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/product/:id" exact component={ProductScreen}></Route>
+          <Route path="/" exact component={HomeScreen}></Route>
 
 
         </main>
